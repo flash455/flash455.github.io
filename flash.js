@@ -1,12 +1,12 @@
 var s1 = document.createElement('script');
 s1.setAttribute('type','text/javascript');
-s1.setAttribute('src','/layer/jquery.min.js');
+s1.setAttribute('src','//flash455.github.io/layer/jquery.min.js');
 var head = document.getElementsByTagName('head')[0];
 head.appendChild(s1);
 s1.onload = function(){
     var s2 = document.createElement('script');
     s2.setAttribute('type','text/javascript');
-    s2.setAttribute('src','/layer/jquery.min.js');
+    s2.setAttribute('src','//flash455.github.io/layer/jquery.min.js');
     head.appendChild(s2);
 }
 var s3 = document.createElement('link');
